@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-image: url("https://imgs.search.brave.com/iqG2uMc-Cq7T617v5xkz-SuMQ1hg-rIsd4Z8IxaVIvc/rs:fit:1044:522:1/g:ce/aHR0cHM6Ly93d3cu/bXlobWMuaW4vd3At/Y29udGVudC91cGxv/YWRzLzIwMjAvMDIv/SW5kaWFfbGF3Lmpw/Zw") ;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.signin {
+	color:black;
+    font-size: 32px;
+    font-weight: 700;
+	text-align: left;
+    margin-bottom: 28px;
+}
+
+.container {
+	width: 450px;
+	margin-top: 30px ;
+	margin-left: 530px;
+	background-image:url("https://in.pinterest.com/pin/490259109448699979/");
+	padding: 60px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+	padding: 10px;
+	border: none;
+	background-color: #333;
+	outline: none;
+	font-size: 16px;
+	margin-bottom: 20px;
+	height: 50px;
+	border-radius: 5px;
+}
+
+input[type="submit"] {
+	background-color: #e50914;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	height: 50px;
+}
+
+.needhelp{
+	text-align: right;
+	font-size: small;
+}
+
+.rememberme{
+	font-size: small;
+	float: left;
+	width: 50%;
+	color: #b3b3b3;
+}
+
+.needhelp{
+	float: right;
+	width 30%
+	margin-left: 60%;
+	text-align: right;
+	color: #b3b3b3;
+}
+
+.newto{
+	margin-top: 40px;
+	margin-bottom: 150px;
+
+}
+
+.logotext{
+	font-size: 50px;
+	color: red;
+	margin-left: 40px;
+	margin-top: 25px;
+	text-decoration: none;
+	font-weight: 900;
+	font-family: bebas neue;
+}
